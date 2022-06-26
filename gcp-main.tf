@@ -7,7 +7,7 @@ resource "google_artifact_registry_repository" "my-repo" {
   provider = google-beta
 
   location = "us-central1"
-  repository_id = "labdevops"
+  repository_id = "labdevopscloud7"
   description = "Image DOCKER"
   format = "DOCKER"
 }

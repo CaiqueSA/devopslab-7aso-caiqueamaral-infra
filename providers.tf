@@ -13,3 +13,10 @@ provider "google-beta" {
   region  = "us-west1"
   zone    = "us-west1-b"
 }
+
+# Configura o Provider Google Cloud com o Projeto
+provider "google" {
+  project = "labdevopscloud7"
+  region  = "us-west1"
+  zone    = "us-west1-b"
+}
